@@ -69,15 +69,15 @@
 #define FILTER_LENGTH 1023  // APB @ 80MHz, limits to < 39,100 Hz
 
 // suitable up to 163,835 Hz
-//#define WINDOW_LENGTH 0.1  // seconds
+//#define WINDOW_DURATION 0.1  // seconds
 //#define FILTER_LENGTH 122  // APB @ 80MHz, limits to < 655,738 Hz
 
 // suitable up to 1,638,350 Hz
-//#define WINDOW_LENGTH 0.01  // seconds
+//#define WINDOW_DURATION 0.01  // seconds
 //#define FILTER_LENGTH 12  // APB @ 80MHz, limits to < 3,333,333 Hz
 
 // suitable up to 16,383,500 Hz - no filter
-//#define WINDOW_LENGTH 0.001  // seconds
+//#define WINDOW_DURATION 0.001  // seconds
 //#define FILTER_LENGTH 0  // APB @ 80MHz, limits to < 40 MHz
 
 static void window_start_callback(void)
